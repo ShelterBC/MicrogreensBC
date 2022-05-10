@@ -1,0 +1,117 @@
+@font-face {
+    font-family: Inter-Thin;
+    src: url("../fonts/Inter-Thin.ttf");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: Inter-Regular;
+    src: url("../fonts/Inter-Regular.ttf");
+    font-display: swap;
+}
+
+body {
+    background: url("../media/zel.png") center center;
+    background-color: black;
+    font-family: Inter-Thin;
+}
+
+.header {
+    background-color: black;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.title {
+    color: white;
+    text-align: center;
+}
+
+.title span, title p {
+    font-weight: 100;
+    font-size: 40px;
+    line-height: 48px;
+    color: #FFFFFF;
+    margin-bottom: 0;
+}
+
+.aftTitle {
+    font-size: 20px;
+    line-height: 24px;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.main-container {
+    position: relative;
+    display: flex;
+    top: 285px;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 400px;
+    padding-top: 20px;
+}
+
+.navigationItem {
+    width: 296px;
+    height: 109px;
+    background: rgba(255, 255, 255, 0.25);
+    border-radius: 24px;
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-family: Inter-Regular;
+    color: #FFFFFF;
+}
+
+.navigationItem p {
+    margin: 0;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 58px;
+}
+
+.contacts {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    top: 285px;
+    margin-top: 50px;
+    justify-content: space-evenly;
+    align-content: center;
+}
+
+.icon {
+    width: 60px;
+    height: 60px;
+}
+
+.footer {
+    text-align: center;
+}
+
+.footer {
+    position: relative;
+    color: white;
+    text-align: center;
+    margin: 0;
+    width: 100%;
+    margin-top: 50px;
+    left: 0;
+    top: 285px;
+    font-size: small;
+}
+
+.footer a{
+    text-decoration: none;
+    color: #cdcbcb;
+    padding: 2px;
+}
+
+.footer a:hover {
+    color: #5f5e5e;
+}
